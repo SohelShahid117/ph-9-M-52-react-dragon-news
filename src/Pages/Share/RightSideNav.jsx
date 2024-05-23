@@ -4,9 +4,9 @@ import { FaGithub } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
 
-import qZone1 from "../../../PH-9-M-52/pic/qZone1.png";
-import qZone2 from "../../../PH-9-M-52/pic/qZone2.png";
-import qZone3 from "../../../PH-9-M-52/pic/qZone3.png";
+import qZone1 from "../../assets/pic/qZone1.png";
+import qZone2 from "../../assets/pic/qZone2.png";
+import qZone3 from "../../assets/pic/qZone3.png";
 
 const RightSideNav = () => {
   return (

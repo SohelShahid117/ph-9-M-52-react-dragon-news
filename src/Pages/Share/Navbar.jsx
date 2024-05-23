@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import profile from "../../../PH-9-M-52/pic/user.png";
+import profile from "../../assets/pic/user.png";
 
 //52-7 Breaking News Slider Using React Marquee And Navbar
 

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../PH-9-M-52/pic/logo.png";
+import logo from "../../assets/pic/logo.png";
 import moment from "moment/moment";
 
 //52-6 Homepage Layout And Date Time Formatting Using Moment.Js
