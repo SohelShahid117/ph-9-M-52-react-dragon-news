@@ -1,0 +1,23 @@
+52-1 OAuth And Authentication Process Explanation
+1.what is firebase?
+ans:
+2.advantage of firebase?
+ans:
+3.firebase authentication:
+ans:
+
+
+52-2 (Conceptual) How OnAuthStateChanged Work
+1.why use an oAuth provider?
+ans:
+2.what is onAuthStateChange ?
+ans:
+3.how to use onAuthStateChange ?
+ans:
+4.why do i need to subscribe/unsubscribe to onAuthStateChange in firebase ?
+
+
+52-3 Project Overview And Project Setup
+1.
+
+diabetis--->83/khali pete(normal range:70-110)
