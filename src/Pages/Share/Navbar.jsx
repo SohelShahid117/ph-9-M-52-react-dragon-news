@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import profile from "../../assets/pic/user.png";
+import { AuthContext } from "../../Providers/AuthProviders";
 
 //52-7 Breaking News Slider Using React Marquee And Navbar
 
 const Navbar = () => {
+  const { user, logOut } = useContext(AuthContext);
+  const handleSignout = () => {
+    logOut()
+      .then((result) => {
+        console.log(result.user);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
   const navLinks = (
     <>
       <li>
@@ -65,9 +76,13 @@ const Navbar = () => {
             />
           </div>
         </div>
-        <Link to="/login" className="btn">
-          Login
-        </Link>
+        {user ? (
+          <button onClick={handleSignout}>Sign Out</button>
+        ) : (
+          <Link to="/login" className="btn">
+            Login
+          </Link>
+        )}
       </div>
     </div>
   );
