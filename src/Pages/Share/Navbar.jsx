@@ -4,6 +4,7 @@ import profile from "../../assets/pic/user.png";
 import { AuthContext } from "../../Providers/AuthProviders";
 
 //52-7 Breaking News Slider Using React Marquee And Navbar
+//52_5-8 Deploy Firebase And Practice Travel Guru
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
@@ -26,6 +27,9 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink to="/career">Career</NavLink>
+      </li>
+      <li>
+        <NavLink to="/login">Login</NavLink>
       </li>
     </>
   );
